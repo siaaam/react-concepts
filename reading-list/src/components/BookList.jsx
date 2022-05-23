@@ -8,8 +8,8 @@ const BookList = () => {
     <>
       <div className="book-list">
         <ul>
-          {books.map((book) => (
-            <BookDetails book={book} />
+          {books.map((book, idx) => (
+            <BookDetails key={idx} book={book} />
           ))}
         </ul>
       </div>
