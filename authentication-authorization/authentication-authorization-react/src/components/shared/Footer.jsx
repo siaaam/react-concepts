@@ -5,7 +5,12 @@ const Footer = () => {
   return (
     <Card.Footer
       className="text-muted text-center"
-      style={{ backgroundColor: '#09efff' }}
+      style={{
+        backgroundColor: '#09efff',
+        position: 'fixed',
+        bottom: 0,
+        width: '100%',
+      }}
     >
       Made With 💟
     </Card.Footer>
